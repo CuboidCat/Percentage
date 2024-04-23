@@ -9,7 +9,6 @@ public class Main {
         double days = scan.nextDouble();
         System.out.print("\nEnter days absent: ");
         double absent = scan.nextDouble();
-        //comment
         double percentageAbsent = (absent/days)*100;
         double percentageHere = (100.0-percentageAbsent);
         System.out.print("\n\nYou have been in school: " + percentageHere);
